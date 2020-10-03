@@ -1,0 +1,408 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "aprendamos algoritmos",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "EnunciadoIntent",
+          "slots": [],
+          "samples": [
+            "quiero ver el enunciado",
+            "enunciado",
+            "ver el enunciado",
+            "Quiero saber el enunciado",
+            "Dame el enunciado"
+          ]
+        },
+        {
+          "name": "ContinuarIntent",
+          "slots": [],
+          "samples": [
+            "quiero más",
+            "siguiente explicación",
+            "siguiente",
+            "Continua"
+          ]
+        },
+        {
+          "name": "ExplicacionIntent",
+          "slots": [],
+          "samples": [
+            "comenzar explicacion",
+            "explicación",
+            "dame la explicación",
+            "quiero la explicación",
+            "oir explicación",
+            "comenzar explicación"
+          ]
+        },
+        {
+          "name": "ResolverIntent",
+          "slots": [],
+          "samples": [
+            "solucion",
+            "resuelvo",
+            "voy a resolver",
+            "resolver",
+            "se la respuesta",
+            "quiero resolver",
+            "resolver problema"
+          ]
+        },
+        {
+          "name": "medioproblemaUnopasoDosCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos tres",
+            "la respuesta es dos tres"
+          ]
+        },
+        {
+          "name": "medioproblemaUnopasoDosDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es cuarenta treinta veinte diez",
+            "la respuesta es cuarenta treinta veinte diez"
+          ]
+        },
+        {
+          "name": "cuatroIntent",
+          "slots": [],
+          "samples": [
+            "la solución es cuatro",
+            "la respuesta es cuatro"
+          ]
+        },
+        {
+          "name": "medioproblemaUnopasoInicioCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos tres cuatro cinco",
+            "la respuesta es dos tres cuatro cinco"
+          ]
+        },
+        {
+          "name": "medioproblemaUnopasoInicioDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es cincuenta treinta cien diez",
+            "la respuesta es cincuenta treinta cien diez"
+          ]
+        },
+        {
+          "name": "dosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos",
+            "la respuesta es dos"
+          ]
+        },
+        {
+          "name": "medioproblemaUnopasoTresDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es treinta y cinco treinta veinte diez",
+            "la respuesta es treinta y cinco treinta veinte diez"
+          ]
+        },
+        {
+          "name": "tresIntent",
+          "slots": [],
+          "samples": [
+            "la solución es tres",
+            "la respuesta es tres"
+          ]
+        },
+        {
+          "name": "medioproblemaUnopasoUnoCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos tres cuatro",
+            "la respuesta es dos tres cuatro"
+          ]
+        },
+        {
+          "name": "medioproblemaUnopasoUnoDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es cincuenta treinta veinte diez",
+            "la respuesta es cincuenta treinta veinte diez"
+          ]
+        },
+        {
+          "name": "cincoIntent",
+          "slots": [],
+          "samples": [
+            "la solución es cinco",
+            "la respuesta es cinco"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoDosCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es tres cuatro",
+            "la respuesta es tres cuatro"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoDosDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos uno veinte y dos nueve",
+            "la respuesta es dos uno veinte y dos nueve"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoDosNodoIntent",
+          "slots": [],
+          "samples": [
+            "la solución es uno",
+            "la respuesta es uno"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoInicioCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es uno dos tres cuatro",
+            "la respuesta es uno dos tres cuatro"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoInicioDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos uno infinito catorce",
+            "la respuesta es dos uno infinito catorce"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoTresDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos uno once nueve",
+            "la respuesta es dos uno once nueve"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoUnoCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es uno tres cuatro",
+            "la respuesta es uno tres cuatro"
+          ]
+        },
+        {
+          "name": "medioproblemaDospasoUnoDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos uno infinito nueve",
+            "la respuesta es dos uno infinito nueve"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoDosCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es tres cinco seis",
+            "la respuesta es tres cinco seis"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoDosDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos cuatro tres infinito ocho",
+            "la respuesta es dos cuatro tres infinito ocho"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoInicioCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos tres cuatro cinco seis",
+            "la respuesta es dos tres cuatro cinco seis"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoInicioDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos cinco infinito infinito ocho",
+            "la respuesta es dos cinco infinito infinito ocho"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoTresCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es cinco seis",
+            "la respuesta es cinco seis"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoTresDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos cuatro tres seis ocho",
+            "la respuesta es dos cuatro tres seis ocho"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoUnoCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es tres cuatro cinco seis",
+            "la respuesta es tres cuatro cinco seis"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoUnoDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos cinco tres infinito ocho",
+            "la respuesta es dos cinco tres infinito ocho"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoCuatroCandidatosIntent",
+          "slots": [],
+          "samples": [
+            "la solución es seis",
+            "la respuesta es seis"
+          ]
+        },
+        {
+          "name": "dificilproblemaUnopasoCuatroDistanciasIntent",
+          "slots": [],
+          "samples": [
+            "la solución es dos cuatro tres seis siete",
+            "la respuesta es dos cuatro tres seis siete"
+          ]
+        },
+        {
+          "name": "silenciarIntent",
+          "slots": [],
+          "samples": [
+            "ya",
+            "ya lo conozco",
+            "ya lo se",
+            "no quiero escuchar más",
+            "silenciar explicación",
+            "para de explicar",
+            "silencia la explicación"
+          ]
+        },
+        {
+          "name": "volverIntent",
+          "slots": [],
+          "samples": [
+            "vuelve",
+            "quiero volver",
+            "volver"
+          ]
+        },
+        {
+          "name": "algoritmoIntent",
+          "slots": [],
+          "samples": [
+            "quiero ver el algoritmo",
+            "ver algoritmo",
+            "muestra el seudocódigo",
+            "Muestra el algoritmo"
+          ]
+        },
+        {
+          "name": "creditosIntent",
+          "slots": [],
+          "samples": [
+            "quiero ver los créditos",
+            "ver créditos",
+            "muestra los créditos"
+          ]
+        },
+        {
+          "name": "passwordIntent",
+          "slots": [
+            {
+              "name": "password",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "mi contraseña es {password}",
+            "mi clave es {password}",
+            "mi contraseña para conectarme es {password}",
+            "la clave es {password}",
+            "mi clave para conectarme es {password}",
+            "la contraseña es {password}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": [
+            "si"
+          ]
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": [
+            "no"
+          ]
+        },
+        {
+          "name": "volverEnunciadoIntent",
+          "slots": [],
+          "samples": [
+            "volver a la explicación",
+            "quiero volver a la explicación"
+          ]
+        },
+        {
+          "name": "volverSolucionIntent",
+          "slots": [],
+          "samples": [
+            "ir a resolver",
+            "quiero ir a resolver",
+            "quiero volver a resolver",
+            "volver a la resolución",
+            "quiero volver a la resolución"
+          ]
+        },
+        {
+          "name": "levelHardIntent",
+          "slots": [],
+          "samples": [
+            "el nivel dificil",
+            "quiero el nivel dificil"
+          ]
+        },
+        {
+          "name": "levelMediumIntent",
+          "slots": [],
+          "samples": [
+            "quiero el nivel medio"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
